@@ -1,0 +1,1214 @@
+﻿Rebuild started at 오전 8:15...
+1>------ Rebuild All started: Project: TestTorchSharpNet48, Configuration: Debug x64 ------
+Restoring NuGet packages...
+To prevent NuGet from restoring packages during build, open the Visual Studio Options dialog, click on the NuGet Package Manager node and uncheck 'Allow NuGet to download missing packages during build.'
+  CACHE https://api.nuget.org/v3/vulnerabilities/index.json
+  CACHE https://api.nuget.org/v3-vulnerabilities/2025.01.03.23.18.21/vulnerability.base.json
+  CACHE https://api.nuget.org/v3-vulnerabilities/2025.01.03.23.18.21/2025.01.07.17.18.29/vulnerability.update.json
+NuGet package restore finished.
+1>Property reassignment: $(MSBuildExtensionsPath)="C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild" (previous value: "C:\Program Files (x86)\MSBuild") at 
+1>Property reassignment: $(MSBuildExtensionsPath32)="C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild" (previous value: "C:\Program Files (x86)\MSBuild") at 
+1>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Trying to import C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.props using extensions path C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild
+1>Property reassignment: $(MSBuildProjectExtensionsPath)="C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\obj\" (previous value: "obj\") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Microsoft.Common.props (60,5)
+1>Assembly loaded during Evaluation: Microsoft.IO.Redist, Version=6.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (location: C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Microsoft.IO.Redist.dll, MVID: cb1d70cb-2531-4fb6-9948-8c7596f06196, AppDomain: [Default])
+1>C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Microsoft.Common.props(84,119): message : Property 'MSBuildUserExtensionsPath' with value 'C:\Users\hyoge\AppData\Local\Microsoft\MSBuild' expanded from the environment.
+1>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Trying to import C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\$(MSBuildToolsVersion)\Imports\Microsoft.Common.props\ImportBefore\* using extensions path C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild
+1>C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Imports\Microsoft.Common.props\ImportBefore\Microsoft.NuGet.ImportBefore.props(14,5): message : Property 'VisualStudioVersion' with value '17.0' expanded from the environment.
+1>The "Configuration" property is a global property, and cannot be modified.
+1>The "Platform" property is a global property, and cannot be modified.
+1>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>The "Configuration" property is a global property, and cannot be modified.
+1>The "Platform" property is a global property, and cannot be modified.
+1>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Property reassignment: $(CommandLineArgsForDesignTimeEvaluation)="-langversion:7.3 -define:DEBUG;TRACE" (previous value: "-langversion:7.3") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Roslyn\Microsoft.CSharp.Core.targets (205,5)
+1>Property reassignment: $(DefineCommonItemSchemas)="false" (previous value: "true") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets (13,5)
+1>Property reassignment: $(DefineCommonCapabilities)="false" (previous value: "true") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets (14,5)
+1>Property reassignment: $(DefineCommonReferenceSchemas)="false" (previous value: "true") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets (15,5)
+1>Property reassignment: $(CollectUpToDateCheckInputDesignTimeDependsOn)="CompileDesignTime;ResolveCodeAnalysisRuleSet" (previous value: "CompileDesignTime") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets (454,5)
+1>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Property reassignment: $(AvailablePlatforms)="Any CPU,x86,x64,ARM64" (previous value: "Any CPU,x86,x64") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.NETFramework.CurrentVersion.props (117,5)
+1>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Assembly loaded during Evaluation: Microsoft.Build.Utilities.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Microsoft.Build.Utilities.Core.dll, MVID: d3dada43-c2e6-46d8-98a7-d20c6325ad83, AppDomain: [Default])
+1>The "Platform" property is a global property, and cannot be modified.
+1>The "Configuration" property is a global property, and cannot be modified.
+1>Property reassignment: $(_DebugSymbolsProduced)="true" (previous value: "false") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (175,5)
+1>Property reassignment: $(_DocumentationFileProduced)="false" (previous value: "true") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (185,5)
+1>The "DevEnvDir" property is a global property, and cannot be modified.
+1>The "SolutionName" property is a global property, and cannot be modified.
+1>The "SolutionFileName" property is a global property, and cannot be modified.
+1>The "SolutionPath" property is a global property, and cannot be modified.
+1>The "SolutionDir" property is a global property, and cannot be modified.
+1>The "SolutionExt" property is a global property, and cannot be modified.
+1>Property reassignment: $(MSBuildCopyMarkerName)="TestTorc.EBC8C7D3" (previous value: "TestTorchSharpNet48.csproj") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (392,5)
+1>Property reassignment: $(MSBuildCopyMarkerName)="TestTorc.EBC8C7D3.Up2Date" (previous value: "TestTorc.EBC8C7D3") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (393,5)
+1>Property reassignment: $(ProcessorArchitecture)="amd64" (previous value: "x64") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (528,5)
+1>C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(562,42): message : Property 'MSBuildExtensionsPath64' with value 'C:\Program Files\MSBuild' expanded from the environment.
+1>Property reassignment: $(DelaySign)="" (previous value: "false") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (580,5)
+1>Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};" (previous value: "{CandidateAssemblyFiles}") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (649,5)
+1>Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem}" (previous value: "{CandidateAssemblyFiles};") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (650,5)
+1>Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem}") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (651,5)
+1>Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\AssemblyFolders.config,v4.8};" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory}") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (652,5)
+1>Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\AssemblyFolders.config,v4.8};;{Registry:Software\Microsoft\.NETFramework,v4.8,AssemblyFoldersEx}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\AssemblyFolders.config,v4.8};") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (653,5)
+1>Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\AssemblyFolders.config,v4.8};;{Registry:Software\Microsoft\.NETFramework,v4.8,AssemblyFoldersEx};{AssemblyFolders}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\AssemblyFolders.config,v4.8};;{Registry:Software\Microsoft\.NETFramework,v4.8,AssemblyFoldersEx}") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (654,5)
+1>Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\AssemblyFolders.config,v4.8};;{Registry:Software\Microsoft\.NETFramework,v4.8,AssemblyFoldersEx};{AssemblyFolders};{GAC}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\AssemblyFolders.config,v4.8};;{Registry:Software\Microsoft\.NETFramework,v4.8,AssemblyFoldersEx};{AssemblyFolders}") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (655,5)
+1>Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\AssemblyFolders.config,v4.8};;{Registry:Software\Microsoft\.NETFramework,v4.8,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\AssemblyFolders.config,v4.8};;{Registry:Software\Microsoft\.NETFramework,v4.8,AssemblyFoldersEx};{AssemblyFolders};{GAC}") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (656,5)
+1>Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\AssemblyFolders.config,v4.8};;{Registry:Software\Microsoft\.NETFramework,v4.8,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName};bin\x64\Debug\" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\AssemblyFolders.config,v4.8};;{Registry:Software\Microsoft\.NETFramework,v4.8,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName}") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (657,5)
+1>C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2579,5): message : Property 'LOCALAPPDATA' with value 'C:\Users\hyoge\AppData\Local' expanded from the environment.
+1>Property reassignment: $(_SGenGenerateSerializationAssembliesConfig)="Auto" (previous value: "") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (3897,5)
+1>Property reassignment: $(_SGenGenerateSerializationAssembliesConfig)="Off" (previous value: "Auto") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (3898,5)
+1>Property reassignment: $(_TargetsThatPrepareProjectReferences)="
+1>      AssignProjectConfiguration;
+1>      _SplitProjectReferencesByFileExistence
+1>    " (previous value: "_SplitProjectReferencesByFileExistence") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (5100,5)
+1>Property reassignment: $(_CodeAnalysisTreatWarningsAsErrors)="false" (previous value: "") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (125,5)
+1>Property reassignment: $(PrepareForRunDependsOn)="
+1>      CopyFilesToOutputDirectory
+1>    ;RunCodeAnalysis" (previous value: "
+1>      CopyFilesToOutputDirectory
+1>    ") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (167,9)
+1>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Property reassignment: $(ResolveReferencesDependsOn)="
+1>      
+1>      BeforeResolveReferences;
+1>      AssignProjectConfiguration;
+1>      ResolveProjectReferences;
+1>      FindInvalidProjectReferences;
+1>      ResolveNativeReferences;
+1>      ResolveAssemblyReferences;
+1>      GenerateBindingRedirects;
+1>      GenerateBindingRedirectsUpdateAppConfig;
+1>      ResolveComReferences;
+1>      AfterResolveReferences
+1>    ;
+1>      ImplicitlyExpandDesignTimeFacades
+1>    " (previous value: "
+1>      BeforeResolveReferences;
+1>      AssignProjectConfiguration;
+1>      ResolveProjectReferences;
+1>      FindInvalidProjectReferences;
+1>      ResolveNativeReferences;
+1>      ResolveAssemblyReferences;
+1>      GenerateBindingRedirects;
+1>      GenerateBindingRedirectsUpdateAppConfig;
+1>      ResolveComReferences;
+1>      AfterResolveReferences
+1>    ") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.NETFramework.CurrentVersion.targets (74,5)
+1>Property reassignment: $(PrepareResourceNamesDependsOn)="
+1>                    AssignWinFXEmbeddedResource;
+1>                    
+1>      AssignTargetPaths;
+1>      SplitResourcesByCulture;
+1>      CreateManifestResourceNames;
+1>      CreateCustomManifestResourceNames
+1>    
+1>      " (previous value: "
+1>      AssignTargetPaths;
+1>      SplitResourcesByCulture;
+1>      CreateManifestResourceNames;
+1>      CreateCustomManifestResourceNames
+1>    ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets (97,7)
+1>Property reassignment: $(PrepareResourcesDependsOn)="
+1>                MarkupCompilePass1;
+1>                AfterMarkupCompilePass1;
+1>                MarkupCompilePass2ForMainAssembly;
+1>                FileClassification;
+1>                MainResourcesGeneration;
+1>                
+1>      ;
+1>      PrepareResourceNames;
+1>      ResGen;
+1>      CompileLicxFiles
+1>    
+1>      " (previous value: "
+1>      ;
+1>      PrepareResourceNames;
+1>      ResGen;
+1>      CompileLicxFiles
+1>    ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets (108,7)
+1>Property reassignment: $(CoreCompileDependsOn)="
+1>          DesignTimeMarkupCompilation;
+1>          ;_ComputeNonExistentFileProperty;ResolveCodeAnalysisRuleSet
+1>      " (previous value: ";_ComputeNonExistentFileProperty;ResolveCodeAnalysisRuleSet") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets (124,7)
+1>Property reassignment: $(CompileDependsOn)="
+1>        
+1>      ResolveReferences;
+1>      ResolveKeySource;
+1>      SetWin32ManifestProperties;
+1>      _SetPreferNativeArm64Win32ManifestProperties;
+1>      FindReferenceAssembliesForReferences;
+1>      _GenerateCompileInputs;
+1>      BeforeCompile;
+1>      _TimeStampBeforeCompile;
+1>      _GenerateCompileDependencyCache;
+1>      CoreCompile;
+1>      _TimeStampAfterCompile;
+1>      AfterCompile;
+1>    ;
+1>        _AfterCompileWinFXInternal
+1>    " (previous value: "
+1>      ResolveReferences;
+1>      ResolveKeySource;
+1>      SetWin32ManifestProperties;
+1>      _SetPreferNativeArm64Win32ManifestProperties;
+1>      FindReferenceAssembliesForReferences;
+1>      _GenerateCompileInputs;
+1>      BeforeCompile;
+1>      _TimeStampBeforeCompile;
+1>      _GenerateCompileDependencyCache;
+1>      CoreCompile;
+1>      _TimeStampAfterCompile;
+1>      AfterCompile;
+1>    ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets (184,5)
+1>Property reassignment: $(PublishBuildDependsOn)="
+1>            BuildOnlySettings;
+1>            PrepareForBuild;
+1>            ResolveReferences;
+1>            PrepareResources;
+1>            ResolveKeySource;
+1>            PrepareResourcesForSatelliteAssemblies;
+1>            GenerateSerializationAssemblies;
+1>            CreateSatelliteAssemblies;
+1>        " (previous value: "
+1>      BuildOnlySettings;
+1>      PrepareForBuild;
+1>      ResolveReferences;
+1>      PrepareResources;
+1>      ResolveKeySource;
+1>      GenerateSerializationAssemblies;
+1>      CreateSatelliteAssemblies;
+1>    ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets (813,9)
+1>Property reassignment: $(BuildDependsOn)="
+1>      EntityDeploy;
+1>      
+1>      BeforeBuild;
+1>      CoreBuild;
+1>      AfterBuild
+1>    
+1>    " (previous value: "
+1>      BeforeBuild;
+1>      CoreBuild;
+1>      AfterBuild
+1>    ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets (35,5)
+1>Property reassignment: $(CleanDependsOn)="
+1>      
+1>      BeforeClean;
+1>      UnmanagedUnregistration;
+1>      CoreClean;
+1>      CleanReferencedProjects;
+1>      CleanPublishFolder;
+1>      AfterClean
+1>    ;
+1>      EntityClean;
+1>    " (previous value: "
+1>      BeforeClean;
+1>      UnmanagedUnregistration;
+1>      CoreClean;
+1>      CleanReferencedProjects;
+1>      CleanPublishFolder;
+1>      AfterClean
+1>    ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets (42,5)
+1>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Property reassignment: $(PrepareResourcesDependsOn)="
+1>      XamlMarkupCompilePass1;
+1>      XamlMarkupCompilePass2;
+1>      
+1>                MarkupCompilePass1;
+1>                AfterMarkupCompilePass1;
+1>                MarkupCompilePass2ForMainAssembly;
+1>                FileClassification;
+1>                MainResourcesGeneration;
+1>                
+1>      ;
+1>      PrepareResourceNames;
+1>      ResGen;
+1>      CompileLicxFiles
+1>    
+1>       
+1>    " (previous value: "
+1>                MarkupCompilePass1;
+1>                AfterMarkupCompilePass1;
+1>                MarkupCompilePass2ForMainAssembly;
+1>                FileClassification;
+1>                MainResourcesGeneration;
+1>                
+1>      ;
+1>      PrepareResourceNames;
+1>      ResGen;
+1>      CompileLicxFiles
+1>    
+1>      ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets (35,5)
+1>Property reassignment: $(CoreCompileDependsOn)="
+1>        DesignTimeXamlMarkupCompilation;
+1>        
+1>          DesignTimeMarkupCompilation;
+1>          ;_ComputeNonExistentFileProperty;ResolveCodeAnalysisRuleSet
+1>      
+1>    " (previous value: "
+1>          DesignTimeMarkupCompilation;
+1>          ;_ComputeNonExistentFileProperty;ResolveCodeAnalysisRuleSet
+1>      ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets (76,5)
+1>Property reassignment: $(PrepareResourcesDependsOn)="
+1>      ValidationExtension;
+1>      ExpressionBuildExtension;
+1>      
+1>      XamlMarkupCompilePass1;
+1>      XamlMarkupCompilePass2;
+1>      
+1>                MarkupCompilePass1;
+1>                AfterMarkupCompilePass1;
+1>                MarkupCompilePass2ForMainAssembly;
+1>                FileClassification;
+1>                MainResourcesGeneration;
+1>                
+1>      ;
+1>      PrepareResourceNames;
+1>      ResGen;
+1>      CompileLicxFiles
+1>    
+1>       
+1>    
+1>    " (previous value: "
+1>      XamlMarkupCompilePass1;
+1>      XamlMarkupCompilePass2;
+1>      
+1>                MarkupCompilePass1;
+1>                AfterMarkupCompilePass1;
+1>                MarkupCompilePass2ForMainAssembly;
+1>                FileClassification;
+1>                MainResourcesGeneration;
+1>                
+1>      ;
+1>      PrepareResourceNames;
+1>      ResGen;
+1>      CompileLicxFiles
+1>    
+1>       
+1>    ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets (16,5)
+1>Property reassignment: $(CoreCompileDependsOn)="
+1>        GenerateCompiledExpressionsTempFile;
+1>        
+1>        DesignTimeXamlMarkupCompilation;
+1>        
+1>          DesignTimeMarkupCompilation;
+1>          ;_ComputeNonExistentFileProperty;ResolveCodeAnalysisRuleSet
+1>      
+1>    
+1>    " (previous value: "
+1>        DesignTimeXamlMarkupCompilation;
+1>        
+1>          DesignTimeMarkupCompilation;
+1>          ;_ComputeNonExistentFileProperty;ResolveCodeAnalysisRuleSet
+1>      
+1>    ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets (24,5)
+1>Property reassignment: $(ResolveReferencesDependsOn)="
+1>      
+1>      
+1>      BeforeResolveReferences;
+1>      AssignProjectConfiguration;
+1>      ResolveProjectReferences;
+1>      FindInvalidProjectReferences;
+1>      ResolveNativeReferences;
+1>      ResolveAssemblyReferences;
+1>      GenerateBindingRedirects;
+1>      GenerateBindingRedirectsUpdateAppConfig;
+1>      ResolveComReferences;
+1>      AfterResolveReferences
+1>    ;
+1>      ImplicitlyExpandDesignTimeFacades
+1>    ;
+1>      ResolveTestReferences
+1>    " (previous value: "
+1>      
+1>      BeforeResolveReferences;
+1>      AssignProjectConfiguration;
+1>      ResolveProjectReferences;
+1>      FindInvalidProjectReferences;
+1>      ResolveNativeReferences;
+1>      ResolveAssemblyReferences;
+1>      GenerateBindingRedirects;
+1>      GenerateBindingRedirectsUpdateAppConfig;
+1>      ResolveComReferences;
+1>      AfterResolveReferences
+1>    ;
+1>      ImplicitlyExpandDesignTimeFacades
+1>    ") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets (4,5)
+1>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Trying to import C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.targets\ImportAfter\* using extensions path C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild
+1>Property reassignment: $(ProjectLockFile)="obj\project.assets.json" (previous value: "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\obj\project.assets.json") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets (74,5)
+1>Property reassignment: $(ResolveAssemblyReferencesDependsOn)="
+1>      ResolveProjectReferences;
+1>      FindInvalidProjectReferences;
+1>      GetFrameworkPaths;
+1>      GetReferenceAssemblyPaths;
+1>      PrepareForBuild;
+1>      ResolveSDKReferences;
+1>      ExpandSDKReferences;
+1>    ;ResolveNuGetPackageAssets" (previous value: "
+1>      ResolveProjectReferences;
+1>      FindInvalidProjectReferences;
+1>      GetFrameworkPaths;
+1>      GetReferenceAssemblyPaths;
+1>      PrepareForBuild;
+1>      ResolveSDKReferences;
+1>      ExpandSDKReferences;
+1>    ") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets (185,5)
+1>Property reassignment: $(PrepareResourcesDependsOn)="ResolveNuGetPackageAssets;
+1>      ValidationExtension;
+1>      ExpressionBuildExtension;
+1>      
+1>      XamlMarkupCompilePass1;
+1>      XamlMarkupCompilePass2;
+1>      
+1>                MarkupCompilePass1;
+1>                AfterMarkupCompilePass1;
+1>                MarkupCompilePass2ForMainAssembly;
+1>                FileClassification;
+1>                MainResourcesGeneration;
+1>                
+1>      ;
+1>      PrepareResourceNames;
+1>      ResGen;
+1>      CompileLicxFiles
+1>    
+1>       
+1>    
+1>    " (previous value: "
+1>      ValidationExtension;
+1>      ExpressionBuildExtension;
+1>      
+1>      XamlMarkupCompilePass1;
+1>      XamlMarkupCompilePass2;
+1>      
+1>                MarkupCompilePass1;
+1>                AfterMarkupCompilePass1;
+1>                MarkupCompilePass2ForMainAssembly;
+1>                FileClassification;
+1>                MainResourcesGeneration;
+1>                
+1>      ;
+1>      PrepareResourceNames;
+1>      ResGen;
+1>      CompileLicxFiles
+1>    
+1>       
+1>    
+1>    ") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets (186,5)
+1>Property reassignment: $(_HandlePackageFileConflictsAfter)="ResolveNuGetPackageAssets;ResolveNuGetPackageAssetsNonAOT" (previous value: "ResolveNuGetPackageAssets") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets (267,5)
+1>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Trying to import C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VisualStudio\WebTools.Aspire\Microsoft.WebTools.Aspire.targets using extensions path C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild
+1>Property reassignment: $(JsonSchemaCombinedFilePath)="C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\obj\x64\Debug\CombinedComponentSchema.json" (previous value: "obj\x64\Debug\\CombinedComponentSchema.json") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VisualStudio\WebTools.Aspire\Microsoft.WebTools.Aspire.targets (25,5)
+1>Property reassignment: $(AppSettingsJsonSchemaCombinedFilePath)="C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\obj\x64\Debug\AppSettingsSchema.json" (previous value: "obj\x64\Debug\\AppSettingsSchema.json") at C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VisualStudio\WebTools.Aspire\Microsoft.WebTools.Aspire.targets (27,5)
+1>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+1>Overriding target "ResolveFrameworkReferences" in project "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets" with target "ResolveFrameworkReferences" from project "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets".
+1>Overriding target "GetFrameworkPaths" in project "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" with target "GetFrameworkPaths" from project "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.NETFramework.CurrentVersion.targets".
+1>Overriding target "SatelliteDllsProjectOutputGroup" in project "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" with target "SatelliteDllsProjectOutputGroup" from project "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets".
+1>Overriding target "GenerateCompiledExpressionsTempFile" in project "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets" with target "GenerateCompiledExpressionsTempFile" from project "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.WorkflowBuildExtensions.targets".
+1>Overriding target "CollectPackageReferences" in project "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets" with target "CollectPackageReferences" from project "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets".
+1>Overriding target "CollectNuGetAuditSuppressions" in project "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets" with target "CollectNuGetAuditSuppressions" from project "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets".
+1>The target "_PrepareRazorSourceGenerators" listed in an AfterTargets attribute at "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.CSharp.DesignTime.targets (74,45)" does not exist in the project, and will be ignored.
+1>The target "ClCompile" listed in an AfterTargets attribute at "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (446,11)" does not exist in the project, and will be ignored.
+1>Build started 2025-01-08 오전 8:15:27.
+1>Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="Current". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
+1>Target "EnableIntermediateOutputPathMismatchWarning" skipped, due to false condition; ('$(RestoreProjectStyle)' == 'PackageReference') was evaluated as ('' == 'PackageReference').
+1>Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "BeforeRebuild" depends on it):
+1>Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+1>Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+1>Using "Message" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "Message"
+1>  Configuration=Debug
+1>Done executing task "Message".
+1>Task "Message"
+1>  Platform=x64
+1>Done executing task "Message".
+1>Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('bin\x64\Debug\' != '' and !HasTrailingSlash('bin\x64\Debug\')).
+1>Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('obj\x64\Debug\' != '' and !HasTrailingSlash('obj\x64\Debug\')).
+1>Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+1>Task "MSBuildInternalMessage" skipped, due to false condition; ( '$(Prefer32Bit)' == 'true' and '$(PreferNativeArm64)' == 'true' ) was evaluated as ( 'true' == 'true' and '' == 'true' ).
+1>Task "MSBuildInternalMessage" skipped, due to false condition; ( '$(NoWin32Manifest)' == 'true' and '$(PreferNativeArm64)' == 'true' ) was evaluated as ( '' == 'true' and '' == 'true' ).
+1>Task "MSBuildInternalMessage" skipped, due to false condition; ( '$(PreferNativeArm64)' == 'true' and '$(Platform)' != 'AnyCPU' ) was evaluated as ( '' == 'true' and 'x64' != 'AnyCPU' ).
+1>Task "Error" skipped, due to false condition; ( '$(_InitialMSBuildProjectExtensionsPath)' != '' And '$(MSBuildProjectExtensionsPath)' != '$(_InitialMSBuildProjectExtensionsPath)' ) was evaluated as ( 'C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\obj\' != '' And 'C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\obj\' != 'C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\obj\' ).
+1>Task "Warning" skipped, due to false condition; ( '$(EnableBaseIntermediateOutputPathMismatchWarning)' == 'true' And '$(_InitialBaseIntermediateOutputPath)' != '$(BaseIntermediateOutputPath)' And '$(BaseIntermediateOutputPath)' != '$(MSBuildProjectExtensionsPath)' ) was evaluated as ( '' == 'true' And 'obj\' != 'obj\' And 'obj\' != 'C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\obj\' ).
+1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "TestTorchSharpNet48.csproj".
+1>Target "BeforeRebuild" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Rebuild" depends on it):
+1>Done building target "BeforeRebuild" in project "TestTorchSharpNet48.csproj".
+1>Target "BeforeClean" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Clean" depends on it):
+1>Done building target "BeforeClean" in project "TestTorchSharpNet48.csproj".
+1>Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+1>                    ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+1>                   Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'Exe' != 'library') or
+1>                    ('' == '')) and
+1>                   Exists('obj\TestTorchSharpNet48.csproj.UnmanagedRegistration.cache')).
+1>Target "CoreClean" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Clean" depends on it):
+1>Using "Delete" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "Delete"
+1>  File "obj\x64\Debug\\TempCA\TestTorchSharpNet48.pdb" doesn't exist. Skipping.
+1>  File "obj\x64\Debug\\TempCA\TestTorchSharpNet48.exe" doesn't exist. Skipping.
+1>Done executing task "Delete".
+1>Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "ReadLinesFromFile"
+1>Done executing task "ReadLinesFromFile".
+1>Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "FindUnderPath"
+1>  Comparison path is "bin\x64\Debug\".
+1>Done executing task "FindUnderPath".
+1>Task "FindUnderPath"
+1>  Comparison path is "obj\x64\Debug\".
+1>Done executing task "FindUnderPath".
+1>Task "Delete"
+1>Done executing task "Delete".
+1>Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "RemoveDuplicates"
+1>Done executing task "RemoveDuplicates".
+1>Using "MakeDir" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "MakeDir"
+1>Done executing task "MakeDir".
+1>Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "WriteLinesToFile"
+1>Done executing task "WriteLinesToFile".
+1>Done building target "CoreClean" in project "TestTorchSharpNet48.csproj".
+1>Target "IgnoreJavaScriptOutputAssembly" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "AssignProjectConfiguration" depends on it):
+1>Done building target "IgnoreJavaScriptOutputAssembly" in project "TestTorchSharpNet48.csproj".
+1>Target "AssignProjectConfiguration" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "PrepareProjectReferences" depends on it):
+1>Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "AssignProjectConfiguration"
+1>Done executing task "AssignProjectConfiguration".
+1>Done building target "AssignProjectConfiguration" in project "TestTorchSharpNet48.csproj".
+1>Target "_SplitProjectReferencesByFileExistence" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "PrepareProjectReferences" depends on it):
+1>Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+1>Done building target "_SplitProjectReferencesByFileExistence" in project "TestTorchSharpNet48.csproj".
+1>Target "_AddOutputPathToGlobalPropertiesToRemove" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "_GetProjectReferenceTargetFrameworkProperties" depends on it):
+1>Done building target "_AddOutputPathToGlobalPropertiesToRemove" in project "TestTorchSharpNet48.csproj".
+1>Target "_GetProjectReferenceTargetFrameworkProperties" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "PrepareProjectReferences" depends on it):
+1>Using "MSBuild" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "MSBuild"
+1>Done executing task "MSBuild".
+1>Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.SkipGetTargetFrameworkProperties)' != 'true' and '$(EnableDynamicPlatformResolution)' == 'true') was evaluated as ('' != 'true' and '' == 'true').
+1>Task "GetReferenceNearestTargetFrameworkTask" skipped, due to false condition; ('@(_ProjectReferenceTargetFrameworkPossibilities)' != '' and '$(ReferringTargetFrameworkForProjectReferences)' != ''
+1>                                                        And '$(GetReferenceNearestTargetFrameworkTaskSupportsTargetPlatformParameter)' == 'true' and '%(_ProjectReferenceTargetFrameworkPossibilities.IsVcxOrNativeProj)' != 'true') was evaluated as ('' != '' and '.NETFramework,Version=v4.8' != ''
+1>                                                        And 'true' == 'true' and '' != 'true').
+1>Task "GetReferenceNearestTargetFrameworkTask" skipped, due to false condition; ('@(_ProjectReferenceTargetFrameworkPossibilities)' != '' and '$(ReferringTargetFrameworkForProjectReferences)' != ''
+1>                                                        And '$(GetReferenceNearestTargetFrameworkTaskSupportsTargetPlatformParameter)' != 'true' and '%(_ProjectReferenceTargetFrameworkPossibilities.IsVcxOrNativeProj)' != 'true') was evaluated as ('' != '' and '.NETFramework,Version=v4.8' != ''
+1>                                                        And 'true' != 'true' and '' != 'true').
+1>Using "SetRidAgnosticValueForProjects" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "SetRidAgnosticValueForProjects"
+1>Done executing task "SetRidAgnosticValueForProjects".
+1>Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "TestTorchSharpNet48.csproj".
+1>Target "_GetProjectReferencePlatformProperties" skipped, due to false condition; ('$(EnableDynamicPlatformResolution)' == 'true'
+1>                     and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true'
+1>                     and '' != '').
+1>Target "PrepareProjectReferences" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CleanReferencedProjects" depends on it):
+1>Done building target "PrepareProjectReferences" in project "TestTorchSharpNet48.csproj".
+1>Target "CleanReferencedProjects" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Clean" depends on it):
+1>Task "MSBuild" skipped, due to false condition; ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' != 'true' and 'true' == 'true' and '' != '').
+1>Done building target "CleanReferencedProjects" in project "TestTorchSharpNet48.csproj".
+1>Target "CleanPublishFolder" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Clean" depends on it):
+1>Task "RemoveDir" skipped, due to false condition; ('$(ClickOncePublishDir)'=='$(OutputPath)app.publish\' and Exists('$(ClickOncePublishDir)')) was evaluated as ('bin\x64\Debug\app.publish\'=='bin\x64\Debug\app.publish\' and Exists('bin\x64\Debug\app.publish\')).
+1>Done building target "CleanPublishFolder" in project "TestTorchSharpNet48.csproj".
+1>Target "AfterClean" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Clean" depends on it):
+1>Done building target "AfterClean" in project "TestTorchSharpNet48.csproj".
+1>Target "EntityClean" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+1>Target "Clean" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Rebuild" depends on it):
+1>Done building target "Clean" in project "TestTorchSharpNet48.csproj".
+1>Target "CleanXsdCodeGen" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Rebuild" depends on it):
+1>Task "Delete"
+1>Done executing task "Delete".
+1>Done building target "CleanXsdCodeGen" in project "TestTorchSharpNet48.csproj".
+1>Target "EntityDeploy" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+1>Target "BeforeBuild" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Build" depends on it):
+1>Done building target "BeforeBuild" in project "TestTorchSharpNet48.csproj".
+1>Target "BuildOnlySettings" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CoreBuild" depends on it):
+1>Done building target "BuildOnlySettings" in project "TestTorchSharpNet48.csproj".
+1>Target "GetFrameworkPaths" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.NETFramework.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "PrepareForBuild" depends on it):
+1>Done building target "GetFrameworkPaths" in project "TestTorchSharpNet48.csproj".
+1>Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+1>Target "GetFrameworkPaths" skipped. Previously built successfully.
+1>Target "GetReferenceAssemblyPaths" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "PrepareForBuild" depends on it):
+1>Using "GetReferenceAssemblyPaths" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "GetReferenceAssemblyPaths"
+1>Done executing task "GetReferenceAssemblyPaths".
+1>Done building target "GetReferenceAssemblyPaths" in project "TestTorchSharpNet48.csproj".
+1>Target "AssignLinkMetadata" skipped, due to false condition; ( '$(SynthesizeLinkMetadata)' == 'true' ) was evaluated as ( '' == 'true' ).
+1>Target "EnsureNuGetPackageBuildImports" in project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "PrepareForBuild" depends on it):
+1>Task "Error" skipped, due to false condition; (!Exists('packages\SkiaSharp.NativeAssets.macOS.2.88.6\build\net462\SkiaSharp.NativeAssets.macOS.targets')) was evaluated as (!Exists('packages\SkiaSharp.NativeAssets.macOS.2.88.6\build\net462\SkiaSharp.NativeAssets.macOS.targets')).
+1>Task "Error" skipped, due to false condition; (!Exists('packages\SkiaSharp.NativeAssets.Win32.2.88.6\build\net462\SkiaSharp.NativeAssets.Win32.targets')) was evaluated as (!Exists('packages\SkiaSharp.NativeAssets.Win32.2.88.6\build\net462\SkiaSharp.NativeAssets.Win32.targets')).
+1>Done building target "EnsureNuGetPackageBuildImports" in project "TestTorchSharpNet48.csproj".
+1>Target "PrepareForBuild" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CoreBuild" depends on it):
+1>Using "FindAppConfigFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "FindAppConfigFile"
+1>  Found "App.config".
+1>Done executing task "FindAppConfigFile".
+1>Task "MakeDir"
+1>Done executing task "MakeDir".
+1>Done building target "PrepareForBuild" in project "TestTorchSharpNet48.csproj".
+1>Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+1>Target "BeforeResolveReferences" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "ResolveReferences" depends on it):
+1>Done building target "BeforeResolveReferences" in project "TestTorchSharpNet48.csproj".
+1>Target "AssignProjectConfiguration" skipped. Previously built successfully.
+1>Target "PrepareProjectReferences" skipped. Previously built successfully.
+1>Target "ResolveProjectReferences" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "ResolveReferences" depends on it):
+1>Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '17.0' != '10.0' and '' != '').
+1>Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+1>Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+1>Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '' and '$(ErrorOnMissingProjectReference)' != 'True') was evaluated as ('' != '' and '' != '' and '' != 'True').
+1>Task "Error" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '' and '$(ErrorOnMissingProjectReference)' == 'True') was evaluated as ('' != '' and '' != '' and '' == 'True').
+1>Done building target "ResolveProjectReferences" in project "TestTorchSharpNet48.csproj".
+1>Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
+1>Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+1>Target "ResolveProjectReferences" skipped. Previously built successfully.
+1>Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
+1>Target "GetFrameworkPaths" skipped. Previously built successfully.
+1>Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+1>Target "PrepareForBuild" skipped. Previously built successfully.
+1>Target "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+1>Target "ResolveSDKReferences" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "ResolveAssemblyReferences" depends on it):
+1>Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+1>Done building target "ResolveSDKReferences" in project "TestTorchSharpNet48.csproj".
+1>Target "ResolveSDKReferences" skipped. Previously built successfully.
+1>Target "ExpandSDKReferences" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "ResolveAssemblyReferences" depends on it):
+1>Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+1>Done building target "ExpandSDKReferences" in project "TestTorchSharpNet48.csproj".
+1>Target "ResolveNuGetPackageAssets" skipped, due to false condition; ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) was evaluated as ('true' == 'true' and exists('obj\project.assets.json')).
+1>Target "ImplicitlyExpandNETStandardFacades" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "ResolveAssemblyReferences" depends on it):
+1>Task "GetDependsOnNETStandard" skipped, due to false condition; ('$(_RunGetDependsOnNETStandard)' == 'true') was evaluated as ('' == 'true').
+1>Task "NETBuildExtensionsError" skipped, due to false condition; ('$(DependsOnNETStandard)' == 'true' AND '$(NETStandardInbox)' != 'true' AND '$(_UsingOldSDK)' == 'true') was evaluated as ('' == 'true' AND 'true' != 'true' AND '' == 'true').
+1>Task "AddFacadesToReferences" skipped, due to false condition; ('@(_NETStandardLibraryNETFrameworkLib)' != '') was evaluated as ('' != '').
+1>Done building target "ImplicitlyExpandNETStandardFacades" in project "TestTorchSharpNet48.csproj".
+1>Target "GetFrameworkPaths" skipped. Previously built successfully.
+1>Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+1>Target "_HandlePackageFileConflicts" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "ResolveAssemblyReferences" depends on it):
+1>Using "ResolvePackageFileConflicts" task from assembly "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\tools\net472\Microsoft.NET.Build.Extensions.Tasks.dll".
+1>Task "ResolvePackageFileConflicts"
+1>Done executing task "ResolvePackageFileConflicts".
+1>Done building target "_HandlePackageFileConflicts" in project "TestTorchSharpNet48.csproj".
+1>Target "ResolveAssemblyReferences" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "ResolveReferences" depends on it):
+1>Using "ResolveAssemblyReference" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "ResolveAssemblyReference"
+1>  TargetFrameworkMoniker:
+1>      .NETFramework,Version=v4.8
+1>  TargetFrameworkMonikerDisplayName:
+1>      .NET Framework 4.8
+1>  TargetedRuntimeVersion:
+1>      v4.0.30319
+1>  Assemblies:
+1>      Google.Protobuf, Version=3.21.9.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL
+1>          HintPath = 'packages\Google.Protobuf.3.21.9\lib\net45\Google.Protobuf.dll'
+1>      ICSharpCode.SharpZipLib, Version=1.4.0.12, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL
+1>          HintPath = 'packages\SharpZipLib.1.4.0\lib\netstandard2.0\ICSharpCode.SharpZipLib.dll'
+1>      SkiaSharp, Version=2.88.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL
+1>          HintPath = 'packages\SkiaSharp.2.88.6\lib\net462\SkiaSharp.dll'
+1>      System
+1>      System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+1>          HintPath = 'packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll'
+1>      System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+1>          HintPath = 'packages\System.Memory.4.5.5\lib\net461\System.Memory.dll'
+1>      System.Numerics
+1>      System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+1>          HintPath = 'packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll'
+1>      System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+1>          HintPath = 'packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll'
+1>      System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+1>          HintPath = 'packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll'
+1>      System.Xml.Linq
+1>      System.Data.DataSetExtensions
+1>      Microsoft.CSharp
+1>      System.Data
+1>      System.Net.Http
+1>      System.Xml
+1>      TorchSharp, Version=0.105.0.0, Culture=neutral, PublicKeyToken=67b0e5e1da516a1c, processorArchitecture=MSIL
+1>          HintPath = 'packages\TorchSharp.0.105.0\lib\netstandard2.0\TorchSharp.dll'
+1>      System.Core
+1>  AssemblyFiles:
+1>      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll
+1>  CandidateAssemblyFiles:
+1>  TargetFrameworkDirectories:
+1>      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Facades\
+1>  InstalledAssemblyTables:
+1>  IgnoreInstalledAssemblyTable:
+1>      False
+1>  SearchPaths:
+1>      {CandidateAssemblyFiles}
+1>      {HintPathFromItem}
+1>      {TargetFrameworkDirectory}
+1>      {AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\AssemblyFolders.config,v4.8}
+1>      {Registry:Software\Microsoft\.NETFramework,v4.8,AssemblyFoldersEx}
+1>      {AssemblyFolders}
+1>      {GAC}
+1>      {RawFileName}
+1>      bin\x64\Debug\
+1>  AllowedAssemblyExtensions:
+1>      .winmd
+1>      .dll
+1>      .exe
+1>  AllowedRelatedFileExtensions:
+1>      .pdb
+1>      .xml
+1>      .pri
+1>      .dll.config
+1>      .exe.config
+1>  AppConfigFile:
+1>      App.config
+1>  AutoUnify:
+1>      True
+1>  CopyLocalDependenciesWhenParentReferenceInGac:
+1>      True
+1>  FindDependencies:
+1>      True
+1>  TargetProcessorArchitecture:
+1>      amd64
+1>  StateFile:
+1>      obj\x64\Debug\TestTorchSharpNet48.csproj.AssemblyReference.cache
+1>  InstalledAssemblySubsetTables:
+1>  IgnoreInstalledAssemblySubsetTable:
+1>      False
+1>  TargetFrameworkSubsets:
+1>  FullTargetFrameworkSubsetNames:
+1>      Full
+1>  ProfileName:
+1>      
+1>  FullFrameworkFolders:
+1>      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\
+1>  LatestTargetFrameworkDirectories:
+1>  ProfileTablesLocation:
+1>  Primary reference "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll".
+1>      Reference found at search path location "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll".
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>  Primary reference "Google.Protobuf, Version=3.21.9.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604".
+1>      Resolved file path is "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\Google.Protobuf.3.21.9\lib\net45\Google.Protobuf.dll".
+1>      Reference found at search path location "{HintPathFromItem}".
+1>      Found related file "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\Google.Protobuf.3.21.9\lib\net45\Google.Protobuf.pdb".
+1>      Found related file "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\Google.Protobuf.3.21.9\lib\net45\Google.Protobuf.xml".
+1>  Primary reference "ICSharpCode.SharpZipLib, Version=1.4.0.12, Culture=neutral, PublicKeyToken=1b03e6acf1164f73".
+1>      Resolved file path is "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SharpZipLib.1.4.0\lib\netstandard2.0\ICSharpCode.SharpZipLib.dll".
+1>      Reference found at search path location "{HintPathFromItem}".
+1>      Found related file "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SharpZipLib.1.4.0\lib\netstandard2.0\ICSharpCode.SharpZipLib.pdb".
+1>      Found related file "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SharpZipLib.1.4.0\lib\netstandard2.0\ICSharpCode.SharpZipLib.xml".
+1>  Primary reference "SkiaSharp, Version=2.88.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756".
+1>      Resolved file path is "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SkiaSharp.2.88.6\lib\net462\SkiaSharp.dll".
+1>      Reference found at search path location "{HintPathFromItem}".
+1>      Found related file "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SkiaSharp.2.88.6\lib\net462\SkiaSharp.pdb".
+1>      Found related file "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SkiaSharp.2.88.6\lib\net462\SkiaSharp.xml".
+1>  Primary reference "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.winmd", but it didn't exist.
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>  Unified primary reference "System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51".
+1>      Using this version instead of original version "4.0.2.0" in "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SharpZipLib.1.4.0\lib\netstandard2.0\ICSharpCode.SharpZipLib.dll" because AutoUnify is 'true'.
+1>      Resolved file path is "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll".
+1>      Reference found at search path location "{HintPathFromItem}".
+1>      Found related file "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.xml".
+1>  Unified primary reference "System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51".
+1>      Using this version instead of original version "4.0.1.1" in "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\Google.Protobuf.3.21.9\lib\net45\Google.Protobuf.dll" because AutoUnify is 'true'.
+1>      Using this version instead of original version "4.0.1.1" in "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SharpZipLib.1.4.0\lib\netstandard2.0\ICSharpCode.SharpZipLib.dll" because AutoUnify is 'true'.
+1>      Resolved file path is "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll".
+1>      Reference found at search path location "{HintPathFromItem}".
+1>  Primary reference "System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Numerics.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Numerics.winmd", but it didn't exist.
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>  Primary reference "System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>      Resolved file path is "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll".
+1>      Reference found at search path location "{HintPathFromItem}".
+1>      Found related file "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.xml".
+1>  Primary reference "System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>      Resolved file path is "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll".
+1>      Reference found at search path location "{HintPathFromItem}".
+1>      Found related file "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.xml".
+1>  Primary reference "System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51".
+1>      Resolved file path is "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll".
+1>      Reference found at search path location "{HintPathFromItem}".
+1>      Found related file "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.xml".
+1>  Primary reference "System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.winmd", but it didn't exist.
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>  Primary reference "System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.DataSetExtensions.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.DataSetExtensions.winmd", but it didn't exist.
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>  Primary reference "Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.winmd", but it didn't exist.
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>  Primary reference "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.winmd", but it didn't exist.
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>  Primary reference "System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Net.Http.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Net.Http.winmd", but it didn't exist.
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>  Primary reference "System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.winmd", but it didn't exist.
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>  Primary reference "TorchSharp, Version=0.105.0.0, Culture=neutral, PublicKeyToken=67b0e5e1da516a1c".
+1>      Resolved file path is "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\TorchSharp.0.105.0\lib\netstandard2.0\TorchSharp.dll".
+1>      Reference found at search path location "{HintPathFromItem}".
+1>      Found related file "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\TorchSharp.0.105.0\lib\netstandard2.0\TorchSharp.xml".
+1>  Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.winmd", but it didn't exist.
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>  Dependency "netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Facades\netstandard.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SharpZipLib.1.4.0\lib\netstandard2.0" (added by referencing assembly "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SharpZipLib.1.4.0\lib\netstandard2.0\ICSharpCode.SharpZipLib.dll").
+1>          Considered "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SharpZipLib.1.4.0\lib\netstandard2.0\netstandard.winmd", but it didn't exist.
+1>          Considered "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SharpZipLib.1.4.0\lib\netstandard2.0\netstandard.dll", but it didn't exist.
+1>          Considered "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SharpZipLib.1.4.0\lib\netstandard2.0\netstandard.exe", but it didn't exist.
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\netstandard.winmd", but it didn't exist.
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\netstandard.dll", but it didn't exist.
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\netstandard.exe", but it didn't exist.
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Facades\netstandard.winmd", but it didn't exist.
+1>      Required by "ICSharpCode.SharpZipLib, Version=1.4.0.12, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL".
+1>      Required by "System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL".
+1>      Required by "TorchSharp, Version=0.105.0.0, Culture=neutral, PublicKeyToken=67b0e5e1da516a1c, processorArchitecture=MSIL".
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>  Dependency "System.Runtime.InteropServices.RuntimeInformation, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Facades\System.Runtime.InteropServices.RuntimeInformation.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SkiaSharp.2.88.6\lib\net462" (added by referencing assembly "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SkiaSharp.2.88.6\lib\net462\SkiaSharp.dll").
+1>          Considered "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SkiaSharp.2.88.6\lib\net462\System.Runtime.InteropServices.RuntimeInformation.winmd", but it didn't exist.
+1>          Considered "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SkiaSharp.2.88.6\lib\net462\System.Runtime.InteropServices.RuntimeInformation.dll", but it didn't exist.
+1>          Considered "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SkiaSharp.2.88.6\lib\net462\System.Runtime.InteropServices.RuntimeInformation.exe", but it didn't exist.
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Runtime.InteropServices.RuntimeInformation.winmd", but it didn't exist.
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Runtime.InteropServices.RuntimeInformation.dll", but it didn't exist.
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Runtime.InteropServices.RuntimeInformation.exe", but it didn't exist.
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Facades\System.Runtime.InteropServices.RuntimeInformation.winmd", but it didn't exist.
+1>      Required by "SkiaSharp, Version=2.88.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL".
+1>      Required by "TorchSharp, Version=0.105.0.0, Culture=neutral, PublicKeyToken=67b0e5e1da516a1c, processorArchitecture=MSIL".
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>Done executing task "ResolveAssemblyReference".
+1>Done building target "ResolveAssemblyReferences" in project "TestTorchSharpNet48.csproj".
+1>Target "GenerateBindingRedirects" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and '@(SuggestedBindingRedirects)' != '' and '$(DesignTimeBuild)' != 'true' and '$(BuildingProject)' == 'true') was evaluated as ('true' == 'true' and 'true' == 'true' and '' != '' and '' != 'true' and 'true' == 'true').
+1>Target "ResolveAssemblyReferences" skipped. Previously built successfully.
+1>Target "_RemoveZipFileSuggestedRedirect" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "GenerateBindingRedirects" depends on it):
+1>Done building target "_RemoveZipFileSuggestedRedirect" in project "TestTorchSharpNet48.csproj".
+1>Target "GenerateBindingRedirectsUpdateAppConfig" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "ResolveReferences" depends on it):
+1>Done building target "GenerateBindingRedirectsUpdateAppConfig" in project "TestTorchSharpNet48.csproj".
+1>Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+1>Target "AfterResolveReferences" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "ResolveReferences" depends on it):
+1>Done building target "AfterResolveReferences" in project "TestTorchSharpNet48.csproj".
+1>Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+1>Target "ImplicitlyExpandDesignTimeFacades" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.NETFramework.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "ResolveReferences" depends on it):
+1>Done building target "ImplicitlyExpandDesignTimeFacades" in project "TestTorchSharpNet48.csproj".
+1>Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+1>Target "ResolveReferences" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CoreBuild" depends on it):
+1>Done building target "ResolveReferences" in project "TestTorchSharpNet48.csproj".
+1>Target "ResolveNuGetPackageAssets" skipped, due to false condition; ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) was evaluated as ('true' == 'true' and exists('obj\project.assets.json')).
+1>Target "ValidationExtension" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "PrepareResources" depends on it):
+1>Task "WorkflowBuildMessageTask" skipped, due to false condition; ('$(SkipWorkflowValidation)'!='' and '$(SkipWorkflowValidation)'!='true' and '$(SkipWorkflowValidation)'!='false') was evaluated as (''!='' and ''!='true' and ''!='false').
+1>Done building target "ValidationExtension" in project "TestTorchSharpNet48.csproj".
+1>Target "ExpressionBuildExtension" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "PrepareResources" depends on it):
+1>Task "WorkflowBuildMessageTask" skipped, due to false condition; ('$(DisableWorkflowCompiledExpressions)'!='' and '$(DisableWorkflowCompiledExpressions)'!='true' and '$(DisableWorkflowCompiledExpressions)'!='false') was evaluated as (''!='' and ''!='true' and ''!='false').
+1>Done building target "ExpressionBuildExtension" in project "TestTorchSharpNet48.csproj".
+1>Target "XamlMarkupCompilePass1" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+1>Target "XamlMarkupCompileReadGeneratedFileList" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+1>Target "XamlMarkupCompileAddFilesGenerated" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+1>Target "XamlMarkupCompilePass2" skipped, due to false condition; ('$(XamlRequiresCompilationPass2)' == 'true' ) was evaluated as ('false' == 'true' ).
+1>Target "XamlMarkupCompileReadPass2Flag" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+1>Target "XamlMarkupCompileAddExtensionFilesGenerated" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+1>Target "AddDeferredValidationErrorsFileToFileWrites" skipped, due to false condition; (Exists('$(DeferredValidationErrorsFileName)')) was evaluated as (Exists('obj\x64\Debug\\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml')).
+1>Target "ReportValidationBuildExtensionErrors" skipped, due to false condition; ('$(SkipWorkflowValidation)' != 'true' and ('@(XamlPage)' != '' or '@(XamlAppDef)' != '')) was evaluated as ('' != 'true' and ('' != '' or '' != '')).
+1>Target "MarkupCompilePass1" skipped, due to false condition; ('@(Page)' != '' or '@(ApplicationDefinition)' != '' ) was evaluated as ('' != '' or '' != '' ).
+1>Target "AfterMarkupCompilePass1" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "PrepareResources" depends on it):
+1>Done building target "AfterMarkupCompilePass1" in project "TestTorchSharpNet48.csproj".
+1>Target "MarkupCompilePass2ForMainAssembly" skipped, due to false condition; ('$(_RequireMCPass2ForMainAssembly)' == 'true' ) was evaluated as ('false' == 'true' ).
+1>Target "FileClassification" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "PrepareResources" depends on it):
+1>Task "FileClassifier" skipped, due to false condition; ('@(GeneratedBaml)' != '' or '@(Resource)' != '' or '@(Font)' != '') was evaluated as ('' != '' or '' != '' or '' != '').
+1>Task "Message" skipped, due to false condition; ('$(MSBuildTargetsVerbose)'=='true') was evaluated as (''=='true').
+1>Task "Message" skipped, due to false condition; ('$(MSBuildTargetsVerbose)'=='true') was evaluated as (''=='true').
+1>Done building target "FileClassification" in project "TestTorchSharpNet48.csproj".
+1>Target "MainResourcesGeneration" skipped, due to false condition; ('@(MainEmbeddedFiles)' != '') was evaluated as ('' != '').
+1>Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+1>Target "CopyAdditionalFiles" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Roslyn\Microsoft.Managed.Core.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "AssignTargetPaths" depends on it):
+1>Done building target "CopyAdditionalFiles" in project "TestTorchSharpNet48.csproj".
+1>Target "AssignTargetPaths" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "PrepareResourceNames" depends on it):
+1>Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "AssignTargetPath"
+1>Done executing task "AssignTargetPath".
+1>Task "AssignTargetPath"
+1>Done executing task "AssignTargetPath".
+1>Task "AssignTargetPath"
+1>Done executing task "AssignTargetPath".
+1>Task "AssignTargetPath"
+1>Done executing task "AssignTargetPath".
+1>Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.config'=='.manifest').
+1>Done building target "AssignTargetPaths" in project "TestTorchSharpNet48.csproj".
+1>Target "AssignTargetPaths" skipped. Previously built successfully.
+1>Target "SplitResourcesByCulture" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "PrepareResourceNames" depends on it):
+1>Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+1>Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+1>Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+1>Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+1>Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "AssignCulture"
+1>Done executing task "AssignCulture".
+1>Done building target "SplitResourcesByCulture" in project "TestTorchSharpNet48.csproj".
+1>Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+1>Target "CreateCustomManifestResourceNames" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "PrepareResourceNames" depends on it):
+1>Done building target "CreateCustomManifestResourceNames" in project "TestTorchSharpNet48.csproj".
+1>Target "PrepareResourceNames" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "PrepareResources" depends on it):
+1>Done building target "PrepareResourceNames" in project "TestTorchSharpNet48.csproj".
+1>Target "ResolveAssemblyReferences" skipped. Previously built successfully.
+1>Target "SplitResourcesByCulture" skipped. Previously built successfully.
+1>Target "BeforeResGen" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "ResGen" depends on it):
+1>Done building target "BeforeResGen" in project "TestTorchSharpNet48.csproj".
+1>Target "ResolveReferences" skipped. Previously built successfully.
+1>Target "FindReferenceAssembliesForReferences" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CoreResGen" depends on it):
+1>Done building target "FindReferenceAssembliesForReferences" in project "TestTorchSharpNet48.csproj".
+1>Target "CoreResGen" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "ResGen" depends on it):
+1>Task "GenerateResource" skipped, due to false condition; ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' != 'CLR2') was evaluated as ('' == 'Resx' and '' != 'false' and 'CurrentRuntime' != 'CLR2').
+1>Task "GenerateResource" skipped, due to false condition; ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' == 'CLR2') was evaluated as ('' == 'Resx' and '' != 'false' and 'CurrentRuntime' == 'CLR2').
+1>Done building target "CoreResGen" in project "TestTorchSharpNet48.csproj".
+1>Target "AfterResGen" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "ResGen" depends on it):
+1>Done building target "AfterResGen" in project "TestTorchSharpNet48.csproj".
+1>Target "ResGen" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "PrepareResources" depends on it):
+1>Done building target "ResGen" in project "TestTorchSharpNet48.csproj".
+1>Target "CompileLicxFiles" skipped, due to false condition; ('@(_LicxFile)'!='') was evaluated as (''!='').
+1>Target "PrepareResources" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CoreBuild" depends on it):
+1>Done building target "PrepareResources" in project "TestTorchSharpNet48.csproj".
+1>Target "ResolveKeySource" skipped, due to false condition; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') was evaluated as ( == 'true' or  == 'true').
+1>Target "ResolveReferences" skipped. Previously built successfully.
+1>Target "ResolveKeySource" skipped, due to false condition; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') was evaluated as ( == 'true' or  == 'true').
+1>Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+1>Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+1>Target "_SetExternalWin32ManifestProperties" skipped, due to false condition; ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='') was evaluated as (''=='true' or ''!='' or ''!='').
+1>Target "_SetEmbeddedWin32ManifestProperties" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "SetWin32ManifestProperties" depends on it):
+1>Using "GetFrameworkPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "GetFrameworkPath"
+1>Done executing task "GetFrameworkPath".
+1>Done building target "_SetEmbeddedWin32ManifestProperties" in project "TestTorchSharpNet48.csproj".
+1>Target "SetWin32ManifestProperties" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Compile" depends on it):
+1>Done building target "SetWin32ManifestProperties" in project "TestTorchSharpNet48.csproj".
+1>Target "_SetPreferNativeArm64Win32ManifestProperties" skipped, due to false condition; ( '$(PreferNativeArm64)'=='true' and '$(NoWin32Manifest)'!='true') was evaluated as ( ''=='true' and ''!='true').
+1>Target "FindReferenceAssembliesForReferences" skipped. Previously built successfully.
+1>Target "_GenerateCompileInputs" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Compile" depends on it):
+1>Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithNoCulture)'!='' and '%(ManifestResourceWithNoCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+1>Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithNoCultureOnDisk)'!='' and '%(ManifestNonResxWithNoCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+1>Done building target "_GenerateCompileInputs" in project "TestTorchSharpNet48.csproj".
+1>Target "PrepareForBuild" skipped. Previously built successfully.
+1>Target "GenerateMSBuildEditorConfigFileShouldRun" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Roslyn\Microsoft.Managed.Core.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "GenerateMSBuildEditorConfigFile" depends on it):
+1>Done building target "GenerateMSBuildEditorConfigFileShouldRun" in project "TestTorchSharpNet48.csproj".
+1>Target "GenerateMSBuildEditorConfigFileCore" skipped, due to false condition; ('$(_GeneratedEditorConfigShouldRun)' == 'true') was evaluated as ('' == 'true').
+1>Target "GenerateMSBuildEditorConfigFile" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Roslyn\Microsoft.Managed.Core.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "BeforeCompile" depends on it):
+1>Done building target "GenerateMSBuildEditorConfigFile" in project "TestTorchSharpNet48.csproj".
+1>Target "PrepareForBuild" skipped. Previously built successfully.
+1>Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+1>Target "_SetTargetFrameworkMonikerAttribute" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.CSharp.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "GenerateTargetFrameworkMonikerAttribute" depends on it):
+1>Done building target "_SetTargetFrameworkMonikerAttribute" in project "TestTorchSharpNet48.csproj".
+1>Target "GenerateTargetFrameworkMonikerAttribute" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "BeforeCompile" depends on it):
+1>Building target "GenerateTargetFrameworkMonikerAttribute" completely.
+1>Output file "obj\x64\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" does not exist.
+1>Task "WriteLinesToFile"
+1>Done executing task "WriteLinesToFile".
+1>Done building target "GenerateTargetFrameworkMonikerAttribute" in project "TestTorchSharpNet48.csproj".
+1>Target "GenerateAdditionalSources" skipped, due to false condition; ('@(AssemblyAttributes)' != '' and '$(GenerateAdditionalSources)' == 'true') was evaluated as ('' != '' and '' == 'true').
+1>Target "BeforeCompile" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Compile" depends on it):
+1>Done building target "BeforeCompile" in project "TestTorchSharpNet48.csproj".
+1>Target "_TimeStampBeforeCompile" skipped, due to false condition; ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) was evaluated as (''=='OnOutputUpdated' or (''=='true' and 'Exe'=='library')).
+1>Target "ResolveAssemblyReferences" skipped. Previously built successfully.
+1>Target "_GenerateCompileDependencyCache" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Compile" depends on it):
+1>Using "Hash" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "Hash"
+1>Done executing task "Hash".
+1>Task "WriteLinesToFile"
+1>Done executing task "WriteLinesToFile".
+1>Done building target "_GenerateCompileDependencyCache" in project "TestTorchSharpNet48.csproj".
+1>Target "GenerateCompiledExpressionsTempFile" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.WorkflowBuildExtensions.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CoreCompile" depends on it):
+1>Done building target "GenerateCompiledExpressionsTempFile" in project "TestTorchSharpNet48.csproj".
+1>Target "DesignTimeXamlMarkupCompilation" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CoreCompile" depends on it):
+1>Task "MakeDir" skipped, due to false condition; ('@(XamlAppDef)' != '') was evaluated as ('' != '').
+1>Task "CallTarget" skipped, due to false condition; ('$(BuildingProject)' != 'true' and '@(XamlAppDef)' != '') was evaluated as ('true' != 'true' and '' != '').
+1>Done building target "DesignTimeXamlMarkupCompilation" in project "TestTorchSharpNet48.csproj".
+1>Target "CleanInProcessXamlGeneratedFiles" skipped, due to false condition; ('@(XamlAppDef)' != '' And '$(BuildingInsideVisualStudio)'!='true') was evaluated as ('' != '' And 'true'!='true').
+1>Target "DesignTimeMarkupCompilation" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CoreCompile" depends on it):
+1>Task "CallTarget" skipped, due to false condition; ('$(BuildingProject)' != 'true') was evaluated as ('true' != 'true').
+1>Done building target "DesignTimeMarkupCompilation" in project "TestTorchSharpNet48.csproj".
+1>Target "_ComputeNonExistentFileProperty" skipped, due to false condition; (('$(BuildingInsideVisualStudio)' == 'true') and ('$(BuildingOutOfProcess)' != 'true') and (('$(BuildingProject)' == 'false') or ('$(UseHostCompilerIfAvailable)' == 'true'))) was evaluated as (('true' == 'true') and ('true' != 'true') and (('true' == 'false') or ('true' == 'true'))).
+1>Target "ResolveCodeAnalysisRuleSet" skipped, due to false condition; ('$(CodeAnalysisRuleSet)' != '') was evaluated as ('' != '').
+1>Target "ShimReferencePathsWhenCommonTargetsDoesNotUnderstandReferenceAssemblies" skipped, due to false condition; ('@(ReferencePathWithRefAssemblies)' == '') was evaluated as ('C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\Google.Protobuf.3.21.9\lib\net45\Google.Protobuf.dll;C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SharpZipLib.1.4.0\lib\netstandard2.0\ICSharpCode.SharpZipLib.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll;...' == '').
+1>Target "_BeforeVBCSCoreCompile" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Roslyn\Microsoft.Managed.Core.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CoreCompile" depends on it):
+1>Done building target "_BeforeVBCSCoreCompile" in project "TestTorchSharpNet48.csproj".
+1>Target "ShimReferencePathsWhenCommonTargetsDoesNotUnderstandReferenceAssemblies" skipped, due to false condition; ('@(ReferencePathWithRefAssemblies)' == '') was evaluated as ('C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\Google.Protobuf.3.21.9\lib\net45\Google.Protobuf.dll;C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SharpZipLib.1.4.0\lib\netstandard2.0\ICSharpCode.SharpZipLib.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll;...' == '').
+1>Target "_ComputeSkipAnalyzers" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Roslyn\Microsoft.Managed.Core.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CoreCompile" depends on it):
+1>Task "ShowMessageForImplicitlySkipAnalyzers" skipped, due to false condition; ('$(_ImplicitlySkipAnalyzers)' == 'true') was evaluated as ('' == 'true').
+1>Done building target "_ComputeSkipAnalyzers" in project "TestTorchSharpNet48.csproj".
+1>Target "_SetPathMapFromSourceRoots" skipped, due to false condition; ('$(DeterministicSourcePaths)' == 'true') was evaluated as ('' == 'true').
+1>Target "CreateCompilerGeneratedFilesOutputPath" skipped, due to false condition; ('$(EmitCompilerGeneratedFiles)' == 'true' and !('$(DesignTimeBuild)' == 'true' OR '$(BuildingProject)' != 'true')) was evaluated as ('false' == 'true' and !('' == 'true' OR 'true' != 'true')).
+1>Target "PreXsdCodeGen" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CoreCompile" depends on it):
+1>Using "CallTarget" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "CallTarget"
+1>Target "CleanXsdCodeGen" skipped. Previously built successfully.
+1>Done executing task "CallTarget".
+1>Done building target "PreXsdCodeGen" in project "TestTorchSharpNet48.csproj".
+1>Target "XsdCodeGen" skipped, due to false condition; ( '$(XsdCodeGenPreCondition)' == 'True' ) was evaluated as ( 'False' == 'True' ).
+1>Target "CoreCompile" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Roslyn\Microsoft.CSharp.Core.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Compile" depends on it):
+1>Building target "CoreCompile" completely.
+1>Output file "obj\x64\Debug\TestTorchSharpNet48.exe" does not exist.
+1>Using "Csc" task from assembly "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll".
+1>Task "Csc"
+1>  C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702,2008 /fullpaths /nostdlib+ /platform:x64 /errorreport:prompt /define:DEBUG;TRACE /errorendlocation /preferreduilang:en-US /highentropyva+ /reference:C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\Google.Protobuf.3.21.9\lib\net45\Google.Protobuf.dll /reference:C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SharpZipLib.1.4.0\lib\netstandard2.0\ICSharpCode.SharpZipLib.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll" /reference:C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SkiaSharp.2.88.6\lib\net462\SkiaSharp.dll /reference:C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll" /reference:C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Net.Http.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Numerics.dll" /reference:C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll /reference:C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll /reference:C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.dll" /reference:C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\TorchSharp.0.105.0\lib\netstandard2.0\TorchSharp.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Facades\netstandard.dll" /debug+ /debug:full /filealign:512 /out:obj\x64\Debug\TestTorchSharpNet48.exe /subsystemversion:6.00 /target:exe /utf8output /deterministic+ /langversion:7.3 Program.cs Properties\AssemblyInfo.cs "obj\x64\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs"
+1>  Microsoft (R) Visual C# Compiler version 4.12.0-3.24572.7 (dfa7fc6b)
+1>  Copyright (C) Microsoft Corporation. All rights reserved.
+1>  CompilerServer: server - server processed compilation - TestTorchSharpNet48
+1>Done executing task "Csc".
+1>Task "CallTarget" skipped, due to false condition; ('$(TargetsTriggeredByCompilation)' != '') was evaluated as ('' != '').
+1>Done building target "CoreCompile" in project "TestTorchSharpNet48.csproj".
+1>Target "_TouchLastBuildWithSkipAnalyzers" skipped, due to false condition; ('$(_SkipAnalyzers)' == 'true') was evaluated as ('' == 'true').
+1>Target "_TimeStampAfterCompile" skipped, due to false condition; ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) was evaluated as (''=='OnOutputUpdated' or (''=='true' and 'Exe'=='library')).
+1>Target "AfterCompile" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Compile" depends on it):
+1>Done building target "AfterCompile" in project "TestTorchSharpNet48.csproj".
+1>Target "PrepareResourcesForSatelliteAssemblies" skipped, due to false condition; ('$(UICulture)' != '') was evaluated as ('' != '').
+1>Target "MergeLocalizationDirectives" skipped, due to false condition; ('@(GeneratedLocalizationFiles)' !='') was evaluated as ('' !='').
+1>Target "AfterCompileWinFX" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "_AfterCompileWinFXInternal" depends on it):
+1>Done building target "AfterCompileWinFX" in project "TestTorchSharpNet48.csproj".
+1>Target "_AfterCompileWinFXInternal" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Compile" depends on it):
+1>Done building target "_AfterCompileWinFXInternal" in project "TestTorchSharpNet48.csproj".
+1>Target "Compile" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CoreBuild" depends on it):
+1>Done building target "Compile" in project "TestTorchSharpNet48.csproj".
+1>Target "DeferredValidation" skipped, due to false condition; ('$(SkipWorkflowValidation)' != 'true' and ('@(XamlPage)' != '' or '@(XamlAppDef)' != '')) was evaluated as ('' != 'true' and ('' != '' or '' != '')).
+1>Target "ExportWindowsMDFile" skipped, due to false condition; ('$(ExportWinMDFile)' == 'true') was evaluated as ('' == 'true').
+1>Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+1>                    ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+1>                   Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'Exe' != 'library') or
+1>                    ('' == '')) and
+1>                   Exists('obj\TestTorchSharpNet48.csproj.UnmanagedRegistration.cache')).
+1>Target "GenerateSerializationAssemblies" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+1>Target "_GenerateSatelliteAssemblyInputs" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CreateSatelliteAssemblies" depends on it):
+1>Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+1>Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+1>Done building target "_GenerateSatelliteAssemblyInputs" in project "TestTorchSharpNet48.csproj".
+1>Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(EmbeddedResource->'%(WithCulture)') != '') was evaluated as ( != '').
+1>Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '' and '$(GenerateSatelliteAssembliesForCore)' != 'true') was evaluated as ('' != '' and '' != 'true').
+1>Target "CreateSatelliteAssemblies" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CoreBuild" depends on it):
+1>Done building target "CreateSatelliteAssemblies" in project "TestTorchSharpNet48.csproj".
+1>Target "GenerateManifests" skipped, due to false condition; ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='' or '$(GenerateAppxManifest)' == 'true') was evaluated as (''=='true' or ''!='' or ''!='' or '' == 'true').
+1>Target "GetTargetPathWithTargetPlatformMoniker" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "GetTargetPath" depends on it):
+1>Done building target "GetTargetPathWithTargetPlatformMoniker" in project "TestTorchSharpNet48.csproj".
+1>Target "GetTargetPath" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CoreBuild" depends on it):
+1>Done building target "GetTargetPath" in project "TestTorchSharpNet48.csproj".
+1>Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(EmbeddedResource->'%(WithCulture)') != '') was evaluated as ( != '').
+1>Target "_CopyFilesMarkedCopyLocal" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+1>Using "Copy" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "Copy"
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\System.Buffers.dll".
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SharpZipLib.1.4.0\lib\netstandard2.0\ICSharpCode.SharpZipLib.dll" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\ICSharpCode.SharpZipLib.dll".
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\System.Memory.dll".
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\System.Numerics.Vectors.dll".
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SkiaSharp.2.88.6\lib\net462\SkiaSharp.dll" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\SkiaSharp.dll".
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\Google.Protobuf.3.21.9\lib\net45\Google.Protobuf.dll" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\Google.Protobuf.dll".
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.dll".
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\System.Threading.Tasks.Extensions.dll".
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\Google.Protobuf.3.21.9\lib\net45\Google.Protobuf.pdb" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\Google.Protobuf.pdb".
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\TorchSharp.0.105.0\lib\netstandard2.0\TorchSharp.dll" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\TorchSharp.dll".
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\Google.Protobuf.3.21.9\lib\net45\Google.Protobuf.xml" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\Google.Protobuf.xml".
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SharpZipLib.1.4.0\lib\netstandard2.0\ICSharpCode.SharpZipLib.pdb" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\ICSharpCode.SharpZipLib.pdb".
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SharpZipLib.1.4.0\lib\netstandard2.0\ICSharpCode.SharpZipLib.xml" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\ICSharpCode.SharpZipLib.xml".
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SkiaSharp.2.88.6\lib\net462\SkiaSharp.pdb" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\SkiaSharp.pdb".
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\SkiaSharp.2.88.6\lib\net462\SkiaSharp.xml" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\SkiaSharp.xml".
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.xml" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\System.Buffers.xml".
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.xml" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\System.Numerics.Vectors.xml".
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.xml" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.xml".
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.xml" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\System.Threading.Tasks.Extensions.xml".
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\packages\TorchSharp.0.105.0\lib\netstandard2.0\TorchSharp.xml" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\TorchSharp.xml".
+1>Done executing task "Copy".
+1>Using "Touch" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "Touch"
+1>  Creating "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\obj\x64\Debug\TestTorc.EBC8C7D3.Up2Date" because "AlwaysCreate" was specified.
+1>  Touching "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\obj\x64\Debug\TestTorc.EBC8C7D3.Up2Date".
+1>Done executing task "Touch".
+1>Done building target "_CopyFilesMarkedCopyLocal" in project "TestTorchSharpNet48.csproj".
+1>Target "AssignTargetPaths" skipped. Previously built successfully.
+1>Target "AssignProjectConfiguration" skipped. Previously built successfully.
+1>Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+1>Target "_GetProjectReferenceTargetFrameworkProperties" skipped. Previously built successfully.
+1>Target "_PopulateCommonStateForGetCopyToOutputDirectoryItems" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+1>Done building target "_PopulateCommonStateForGetCopyToOutputDirectoryItems" in project "TestTorchSharpNet48.csproj".
+1>Target "GetCopyToOutputDirectoryXamlAppDefs" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+1>Task "AssignTargetPath"
+1>Done executing task "AssignTargetPath".
+1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "TestTorchSharpNet48.csproj".
+1>Target "GetCopyToOutputDirectoryItems" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+1>Task "CallTarget"
+1>Target "_PopulateCommonStateForGetCopyToOutputDirectoryItems" skipped. Previously built successfully.
+1>Target "_AddOutputPathToGlobalPropertiesToRemove" skipped. Previously built successfully.
+1>Target "_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+1>Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+1>Task "AssignTargetPath"
+1>Done executing task "AssignTargetPath".
+1>Done building target "_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences" in project "TestTorchSharpNet48.csproj".
+1>Done executing task "CallTarget".
+1>Task "CallTarget"
+1>Target "AssignTargetPaths" skipped. Previously built successfully.
+1>Target "_PopulateCommonStateForGetCopyToOutputDirectoryItems" skipped. Previously built successfully.
+1>Target "_GetCopyToOutputDirectoryItemsFromThisProject" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+1>Task "AssignTargetPath"
+1>Done executing task "AssignTargetPath".
+1>Done building target "_GetCopyToOutputDirectoryItemsFromThisProject" in project "TestTorchSharpNet48.csproj".
+1>Done executing task "CallTarget".
+1>Done building target "GetCopyToOutputDirectoryItems" in project "TestTorchSharpNet48.csproj".
+1>Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+1>Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+1>Target "_CopySourceItemsToOutputDirectory" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+1>Done building target "_CopySourceItemsToOutputDirectory" in project "TestTorchSharpNet48.csproj".
+1>Target "_CopyAppConfigFile" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+1>Building target "_CopyAppConfigFile" completely.
+1>Output file "bin\x64\Debug\TestTorchSharpNet48.exe.config" does not exist.
+1>Task "Copy"
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\App.config" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\TestTorchSharpNet48.exe.config".
+1>Done executing task "Copy".
+1>Done building target "_CopyAppConfigFile" in project "TestTorchSharpNet48.csproj".
+1>Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+1>Target "_CheckForCompileOutputs" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+1>Done building target "_CheckForCompileOutputs" in project "TestTorchSharpNet48.csproj".
+1>Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+1>Target "CopyFilesToOutputDirectory" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "PrepareForRun" depends on it):
+1>Task "Copy"
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\obj\x64\Debug\TestTorchSharpNet48.exe" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\TestTorchSharpNet48.exe".
+1>Done executing task "Copy".
+1>Task "CopyRefAssembly" skipped, due to false condition; ('$(ProduceReferenceAssembly)' == 'true' and '$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('false' == 'true' and 'true' == 'true' and '' != 'true').
+1>Task "Message"
+1>  TestTorchSharpNet48 -> C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\TestTorchSharpNet48.exe
+1>Done executing task "Message".
+1>Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+1>Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+1>Task "Copy"
+1>  Copying file from "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\obj\x64\Debug\TestTorchSharpNet48.pdb" to "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\bin\x64\Debug\TestTorchSharpNet48.pdb".
+1>Done executing task "Copy".
+1>Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true' and '$(CopyDocumentationFileToOutputDirectory)'=='true') was evaluated as ('false'=='true' and 'true'=='true').
+1>Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+1>Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+1>Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+1>Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+1>Done building target "CopyFilesToOutputDirectory" in project "TestTorchSharpNet48.csproj".
+1>Target "RunCodeAnalysis" skipped, due to false condition; ('$(RunCodeAnalysisOnThisProject)'=='true') was evaluated as (''=='true').
+1>Target "PrepareForRun" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CoreBuild" depends on it):
+1>Done building target "PrepareForRun" in project "TestTorchSharpNet48.csproj".
+1>Target "UnmanagedRegistration" skipped, due to false condition; ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library') was evaluated as (''=='true' and 'Exe'=='library').
+1>Target "_CheckForCompileOutputs" skipped. Previously built successfully.
+1>Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+1>Target "_CleanGetCurrentAndPriorFileWrites" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "IncrementalClean" depends on it):
+1>Task "ReadLinesFromFile"
+1>Done executing task "ReadLinesFromFile".
+1>Using "ConvertToAbsolutePath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "ConvertToAbsolutePath"
+1>Done executing task "ConvertToAbsolutePath".
+1>Task "FindUnderPath"
+1>  Comparison path is "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48".
+1>Done executing task "FindUnderPath".
+1>Task "FindUnderPath"
+1>  Comparison path is "bin\x64\Debug\".
+1>Done executing task "FindUnderPath".
+1>Task "FindUnderPath"
+1>  Comparison path is "obj\x64\Debug\".
+1>Done executing task "FindUnderPath".
+1>Task "RemoveDuplicates"
+1>Done executing task "RemoveDuplicates".
+1>Done building target "_CleanGetCurrentAndPriorFileWrites" in project "TestTorchSharpNet48.csproj".
+1>Target "IncrementalClean" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "CoreBuild" depends on it):
+1>Task "FindUnderPath"
+1>  Comparison path is "bin\x64\Debug\".
+1>Done executing task "FindUnderPath".
+1>Task "FindUnderPath"
+1>  Comparison path is "obj\x64\Debug\".
+1>Done executing task "FindUnderPath".
+1>Task "Delete"
+1>Done executing task "Delete".
+1>Task "RemoveDuplicates"
+1>Done executing task "RemoveDuplicates".
+1>Task "WriteLinesToFile"
+1>Done executing task "WriteLinesToFile".
+1>Done building target "IncrementalClean" in project "TestTorchSharpNet48.csproj".
+1>Target "PostBuildEvent" skipped, due to false condition; ('$(PostBuildEvent)' != '' and ('$(RunPostBuildEvent)' != 'OnOutputUpdated' or '$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)')) was evaluated as ('' != '' and ('' != 'OnOutputUpdated' or '' != '')).
+1>Target "CoreBuild" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Build" depends on it):
+1>Done building target "CoreBuild" in project "TestTorchSharpNet48.csproj".
+1>Target "AfterBuild" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Build" depends on it):
+1>Done building target "AfterBuild" in project "TestTorchSharpNet48.csproj".
+1>Target "Build" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Rebuild" depends on it):
+1>Done building target "Build" in project "TestTorchSharpNet48.csproj".
+1>Target "AfterRebuild" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (target "Rebuild" depends on it):
+1>Done building target "AfterRebuild" in project "TestTorchSharpNet48.csproj".
+1>Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+1>Target "Rebuild" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (entry point):
+1>Done building target "Rebuild" in project "TestTorchSharpNet48.csproj".
+1>Target "PrepareForBuild" skipped. Previously built successfully.
+1>Target "BuiltProjectOutputGroup" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (entry point):
+1>Done building target "BuiltProjectOutputGroup" in project "TestTorchSharpNet48.csproj".
+1>Target "BuildOnlySettings" skipped. Previously built successfully.
+1>Target "PrepareForBuild" skipped. Previously built successfully.
+1>Target "AssignTargetPaths" skipped. Previously built successfully.
+1>Target "ResolveReferences" skipped. Previously built successfully.
+1>Target "BuiltProjectOutputGroupDependencies" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (entry point):
+1>Done building target "BuiltProjectOutputGroupDependencies" in project "TestTorchSharpNet48.csproj".
+1>Target "DebugSymbolsProjectOutputGroup" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (entry point):
+1>Done building target "DebugSymbolsProjectOutputGroup" in project "TestTorchSharpNet48.csproj".
+1>Target "BuildOnlySettings" skipped. Previously built successfully.
+1>Target "PrepareForBuild" skipped. Previously built successfully.
+1>Target "AssignTargetPaths" skipped. Previously built successfully.
+1>Target "ResolveReferences" skipped. Previously built successfully.
+1>Target "DebugSymbolsProjectOutputGroupDependencies" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (entry point):
+1>Done building target "DebugSymbolsProjectOutputGroupDependencies" in project "TestTorchSharpNet48.csproj".
+1>Target "DocumentationProjectOutputGroup" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (entry point):
+1>Done building target "DocumentationProjectOutputGroup" in project "TestTorchSharpNet48.csproj".
+1>Target "DocumentationProjectOutputGroupDependencies" skipped, due to false condition; ('$(DocumentationFile)'!='') was evaluated as (''!='').
+1>Target "PrepareResourceNames" skipped. Previously built successfully.
+1>Target "SatelliteDllsProjectOutputGroup" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (entry point):
+1>Task "CreateItem" skipped, due to false condition; ('@(ResxWithCulture)' != '') was evaluated as ('' != '').
+1>Task "CreateItem" skipped, due to false condition; ('$(UICulture)' != '') was evaluated as ('' != '').
+1>Task "CreateItem" skipped, due to false condition; ('@(NonResxWithCulture)' != '') was evaluated as ('' != '').
+1>Using "CreateItem" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "CreateItem"
+1>Done executing task "CreateItem".
+1>Task "CreateItem"
+1>Done executing task "CreateItem".
+1>Done building target "SatelliteDllsProjectOutputGroup" in project "TestTorchSharpNet48.csproj".
+1>Target "BuildOnlySettings" skipped. Previously built successfully.
+1>Target "PrepareForBuild" skipped. Previously built successfully.
+1>Target "AssignTargetPaths" skipped. Previously built successfully.
+1>Target "ResolveReferences" skipped. Previously built successfully.
+1>Target "SatelliteDllsProjectOutputGroupDependencies" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (entry point):
+1>Done building target "SatelliteDllsProjectOutputGroupDependencies" in project "TestTorchSharpNet48.csproj".
+1>Target "SGenFilesOutputGroup" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (entry point):
+1>Done building target "SGenFilesOutputGroup" in project "TestTorchSharpNet48.csproj".
+1>Target "BuildOnlySettings" skipped. Previously built successfully.
+1>Target "PrepareForBuild" skipped. Previously built successfully.
+1>Target "AssignTargetPaths" skipped. Previously built successfully.
+1>Target "ResolveReferences" skipped. Previously built successfully.
+1>Target "SGenFilesOutputGroupDependencies" in file "C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\TorchSharpIssue1432\TorchSharp_0_105_0\TestTorchSharpNet48\TestTorchSharpNet48.csproj" (entry point):
+1>Done building target "SGenFilesOutputGroupDependencies" in project "TestTorchSharpNet48.csproj".
+1>
+1>Build succeeded.
+1>    0 Warning(s)
+1>    0 Error(s)
+1>
+1>Time Elapsed 00:00:00.25
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
+========== Rebuild completed at 오전 8:15 and took 06.806 seconds ==========
